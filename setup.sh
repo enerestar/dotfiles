@@ -88,13 +88,13 @@ symlink ".gitconfig"
 symlink ".gitignore_global"
 
 # goenv / golang
-git clone https://github.com/syndbg/goenv.git ~/.goenv
-export GOENV_ROOT=$HOME/.goenv
-export PATH=$GOENV_ROOT/bin:$PATH
-eval "$(goenv init -)"
-export GO_LATEST=`goenv install -list | tail -1 | sed 's/ //g'`
-goenv install -s $GO_LATEST
-goenv global $GO_LATEST
+#git clone https://github.com/syndbg/goenv.git ~/.goenv
+#export GOENV_ROOT=$HOME/.goenv
+#export PATH=$GOENV_ROOT/bin:$PATH
+#eval "$(goenv init -)"
+#export GO_LATEST=`goenv install -list | tail -1 | sed 's/ //g'`
+#goenv install -s $GO_LATEST
+#goenv global $GO_LATEST
 
 # nvm / node
 mkdir -p $HOME/.nvm
